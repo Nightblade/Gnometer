@@ -2,8 +2,8 @@ This is a fork of Gnometer 1.3.0.3 by poiru, from https://poiru.deviantart.com/a
 
 I'll attempt to curate fixes where possible.  Large changes probably won't be possible without help from poiru though.
 
-Change highlights so far:
+Change highlights:
 
 * **Word of the Day** skin fixed thanks to HarlekinGer.
-* Fixed **CPU**s showing wrong useage amounts in **system** skins.
+* Fixed **CPU**s showing wrong usage amounts in **system** skins.
 * Misc minor fixes including removing depreciated options/bangs.
