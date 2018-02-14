@@ -2,7 +2,7 @@ This is a fork of Gnometer 1.3.0.3 by poiru, from https://poiru.deviantart.com/a
 
 I'll attempt to curate fixes where possible.  Large changes probably won't be possible without help from poiru though.
 
-Change highlights:
+[Latest release.](https://github.com/Nightblade/Gnometer/releases/latest)
 
 * **Word of the Day** skin fixed thanks to HarlekinGer.
 * Fixed **CPU**s showing wrong usage amounts in **system** skins.
