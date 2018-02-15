@@ -5,10 +5,10 @@ I'll attempt to curate fixes where possible.  Large changes probably won't be po
 [Latest release.](https://github.com/Nightblade/Gnometer/releases/latest)
 
 ## Change history:
-Unreleased
+Unreleased  2018/02/15
 * Changed:  **Media Player:** All skins now use built-in *NowPlaying* measure (except VLC); removed unused .lua and .exe files
 
- 1.3.0.3-16.c781
+Release  1.3.0.3-16.c781  2018/02/14
 * Fixed: **Word of the Day:** Thanks to HarlekinGer.
 * Fixed: **System > Multi-Core:** Was showing usage amounts for wrong CPUs.
 * Fixed: Misc minor fixes including removing depreciated options/bangs.
