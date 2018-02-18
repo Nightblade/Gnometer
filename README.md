@@ -1,17 +1,19 @@
-This is a fork of Gnometer 1.3.0.3 by poiru, from https://poiru.deviantart.com/art/Gnometer-1-3-0-3-182181512
+## About
+This is a fork of the [Rainmeter](https://rainmeter.net) skin package **Gnometer** by [poiru](https://github.com/poiru), version 1.3.0.3,  from his [deviantart](https://poiru.deviantart.com/art/Gnometer-1-3-0-3-182181512) page.
 
-I'll attempt to curate fixes where possible.  Large changes probably won't be possible without help from poiru though.
+I'll attempt to maintain the code and fix bugs where possible, but I'm not a Rainmeter (or GitHub) expert.  Help/suggestions welcome!
 
-[Latest release.](https://github.com/Nightblade/Gnometer/releases/latest)
+[Download latest release here.](https://github.com/Nightblade/Gnometer/releases/latest)
 
-## Change history:
-Unreleased  2018/02/15
-* Changed:  **Media Player:** All skins now use built-in *NowPlaying* measure (except VLC); removed unused .lua and .exe files
+## Change summary
+### (Unreleased)
+* Changed: **all**: `Plugin=WebParser.dll` -> `Measure=WebParser`
+* Changed:  **Media Player:** All skins now use built-in `NowPlaying` measure (except VLC); removed unused .lua and .exe files
 
-Release  1.3.0.3-16.c781  2018/02/14
+### 1.3.0.3-16.c781 -- 2018/02/14
 * Fixed: **Word of the Day:** Thanks to HarlekinGer.
 * Fixed: **System > Multi-Core:** Was showing usage amounts for wrong CPUs.
-* Fixed: Misc minor fixes including removing depreciated options/bangs.
+* Fixed: **all**: Misc. minor fixes including removing depreciated options/bangs.
 
-## To do:
+## To do
 * **Weather:** Investigate using LUA to make a local cache of the weather data so as to avoid unnecessary  web-scrapes (when using the Gnometer settings skin for example).
