@@ -6,9 +6,14 @@ I'll attempt to maintain the code and fix bugs where possible, but I'm not a Rai
 [Download latest unofficial release here.](https://github.com/Nightblade/Gnometer/releases/latest)
 
 ## Change summary
-### (Unreleased)
-* Changed: **all**: `Plugin=WebParser.dll` -> `Measure=WebParser`
+### 1.4 / 2018-02-28
+* Fixed: **Calendar**: Now uses user-defined date/time format from `variables.inc` rather than hard-coded `local-time`.
 * Changed:  **Media Player:** All skins now use built-in `NowPlaying` measure (except VLC); removed unused .lua and .exe files
+* Changed: **Network**: Now uses `checkip.amazonaws.com` to lookup IP4 address
+* Changed: **all**: Change depreciated `Plugin=WebParser.dll` to `Measure=WebParser`
+* Changed: **all**: Update license from `Creative Commons BY-NC-SA 3.0` to `Creative Commons BY-NC-SA 4.0`.
+* Changed: **all**: Set skin version from `1.3` to `1.4` to indicate changes made that are not backwards-compatible.
+* Changed: **all**: Set `MinimumRainmeter` to `3.3.0` and `MinimumWindows` to `6.1`.  This was done as some of the changes I've made are probably not backwards-compatible with older versions of Rainmeter or Windows.  They are purely guesstimates and may need tweaking.
 
 ### 1.3.0.3-16.c781 / 2018-02-14
 * Fixed: **Word of the Day:** Thanks to HarlekinGer.
